@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/buscar"
+        android:title="Buscar"
+        android:icon="@drawable/buscar"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/agenda"
+        android:title="@string/agenda_entrar"
+        android:icon="@drawable/ic_baseline_call_24"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/clima"
+        android:title="Tempo"
+        android:icon="@drawable/ic_baseline_cloud_24"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/finalizar"
+        android:title="Finalizar"
+        android:icon="@drawable/ic_baseline_exit_to_app_24"
+        app:showAsAction="collapseActionView"/>
+</menu>

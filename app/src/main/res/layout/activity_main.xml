@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btnagenda"
+        android:layout_width="match_parent"
+        android:layout_height="62dp"
+        android:text="Agenda telefonica" />
+
+    <Button
+        android:id="@+id/btnoclima"
+        android:layout_width="match_parent"
+        android:layout_height="62dp"
+        android:text="Clima" />
+
+    <Button
+        android:id="@+id/btng1"
+        android:layout_width="match_parent"
+        android:layout_height="62dp"
+        android:text="G1 Noticias" />
+    <Button
+        android:id="@+id/btnyoutube"
+        android:layout_width="match_parent"
+        android:layout_height="62dp"
+        android:text="Youtube" />
+    <Button
+        android:id="@+id/btnmusicayoutube"
+        android:layout_width="match_parent"
+        android:layout_height="62dp"
+        android:text="Baixar musica do youtube" />
+    <Button
+        android:id="@+id/btnfinalizar"
+        android:layout_width="150dp"
+        android:layout_gravity="center"
+        android:layout_height="62dp"
+        android:text="Finalizar" />
+
+</LinearLayout>
